@@ -1,0 +1,143 @@
+@media (max-width: 50em) {
+    header nav{
+        width: 90%;
+    }
+    
+    .hamburger{
+    display: block;
+}
+
+.menus,
+.btn{
+    display: none;
+}
+
+
+
+
+
+.hero{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 1rem;
+    /* overflow: hidden; */
+}
+
+
+
+.hero .hero-imgMob{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    right:0%;
+    z-index: -1;
+}
+
+.hero .bg{
+    z-index: -1;
+
+    width: 100%;
+
+}
+
+.hero .phones-img{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+}
+
+.hero-img{
+    display: none;
+}
+.hero-imgMob{
+    display: block;
+}
+
+.hero .intro{
+margin: 0;
+margin-top: 110%;
+text-align: center;
+
+}
+
+.hero h1{
+    width: 100%;
+    font-size: 2rem;
+    font-weight: normal;
+
+}
+
+
+.hero p{
+    width: 100%;
+}
+
+.hero .btn{
+    margin-top: 2rem;
+}
+
+
+#why{
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+#why .title{
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+#why .desc{
+    width: 100%;
+}
+
+#why .ans{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.ans div{
+    margin-top: 3rem;
+}
+
+#why .sub-title{
+    margin-top: 1.2rem;
+}
+
+#why .descs{
+    width: 100%;
+}
+
+article{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article .title{
+    font-size: 2.4rem;
+    font-weight: normal;
+}
+
+.articles{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: 30%;
+}
+
+
+footer{
+    display: none;
+}
+
+}

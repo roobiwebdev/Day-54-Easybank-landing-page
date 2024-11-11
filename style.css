@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow-x: hidden;
+    background:#FBFAFB;
+}
+
+header{
+    width: 100%;
+    height: 90vh;
+    background-color: #F9F9F9;
+    z-index: 1;
+}
+
+header .content{
+    width: 100%;
+    background-color: #FFFEFE;
+
+}
+
+header nav{
+    width: 77%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    /* width: 100%; */
+    height: 5rem;
+
+}
+
+/* nav .content{
+    width: 100%;
+} */
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 1rem;
+}
+nav ul li:last-child{
+    margin-right: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #99999F;
+    font-size: 1rem;
+}
+
+.btn button{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .8rem 1.7rem;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(to right, #36D368,#2BB9D1);
+    color: #fff;
+    cursor: pointer;
+}
+
+.hamburger{
+    display: none;
+}
+
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    /* overflow: hidden; */
+}
+
+.hero .intro{
+    /* width: 70%; */
+    margin-top: 7.5rem;
+    margin-left: 10.5rem;
+
+}
+
+.hero h1{
+    width: 40%;
+    font-size: 3.4rem;
+    font-weight: normal;
+}
+
+.hero p{
+    width: 40%;
+    font-size: 1.04rem;
+    margin-top: 1.45rem;
+    line-height: 30px;
+}
+
+.hero .btn{
+    margin-top: 2rem;
+}
+
+.hero .hero-img{
+    position: absolute;
+    top: -8%;
+    right: -33.3%;
+    z-index: -1;
+}
+
+.hero .bg{
+    z-index: -1;
+}
+
+.hero .phones-img{
+    position: absolute;
+    top: 13%;
+    left: 14%;
+    z-index: 1;
+}
+
+.hero-imgMob{
+    display: none;
+}
+
+#why{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6.7rem 0 0 10.3rem;
+    background-color: #F5F5F6;
+    z-index: -3;
+}
+
+#why .title{
+    font-size: 2.45rem;
+    font-weight: normal;
+}
+
+#why .desc{
+    width: 50%;
+    font-size: 1.05rem;
+    margin-top: 1.5rem;
+    line-height: 30px;
+}
+
+#why .ans{
+    width: 93%;
+    display: flex;
+    margin-top: 4.2rem;
+}
+
+#why .sub-title{
+    font-weight: normal;
+    margin-top: 2.2rem;
+}
+
+#why .descs{
+    margin-top: 1.7rem;
+    line-height: 27px;
+    width: 92%;
+}
+
+article{
+    padding: 11.7rem 0 0 10.3rem;
+}
+
+article .title{
+    font-size: 2.4rem;
+    font-weight: normal;
+}
+
+.articles{
+    /* width: 95%; */
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+
+.articles .card{
+    width: 16rem;
+    height: 25rem;
+    margin-right: 1.8rem;
+    border-radius: 5px;
+    background: #FFFEFE;
+    cursor: pointer;
+}
+
+.articles .img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.articles img{
+    width: 100%;
+    height: 12.7rem;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.articles .cont{
+    padding: 1.5rem;
+}
+
+.cont .name{
+    font-size: 10px;
+    color: #BFBEC3;
+}
+
+.cont .sub-title{
+    margin-top: 1rem;
+    font-size: 15px;
+}
+
+.cont .desc{
+    font-size: 13px;
+    margin-top: .5rem;
+    line-height: 18px;
+    color: #BFBEC3;
+}
+
+footer{
+    width: 100%;
+    margin-top: 4.7rem;
+    height: 12rem;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* padding: 1rem 11rem; */
+    align-items: center;
+    background-color: #2D314E;
+    color: #fff;
+
+}
+
+footer .socials{
+    /* width: 40%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10rem;
+
+}
+
+.socials .links{
+    margin-top: 2.5rem;
+
+}
+
+.links img{
+    margin-right: .6rem;
+}
+
+.socials .menuss{
+    width: 18.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8rem;
+    margin-right: 23rem;
+}
+
+.menuss li{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+footer .btn{
+    /* margin-top: -1.5rem; */
+    margin-bottom: 2rem;
+}
